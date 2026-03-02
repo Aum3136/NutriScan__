@@ -1,5 +1,6 @@
 import { Routes, Route, useNavigate } from "react-router-dom";
 import Scan from "./pages/Scan";
+import StressQuiz from "./pages/StressQuiz";
 <img src="/hero.jpg" alt="Healthy food" />
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
         <div className="nav-links">
           <span onClick={() => navigate("/")}>Home</span>
           <span onClick={() => navigate("/scan")}>Scan</span>
+          <span onClick={() => navigate("/quiz")}>Stress Quiz</span>
         </div>
       </div>
 
@@ -44,6 +46,7 @@ function Home() {
 export default function App() {
   return (
     <Routes>
+      <Route path="/quiz" element={<StressQuiz />} />
       <Route path="/" element={<Home />} />
       <Route path="/scan" element={<Scan />} />
     </Routes>
