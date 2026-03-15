@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #111827;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #22c55e;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  color: #9ca3af;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  min-height: 80vh;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1 {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #94a3b8;
+}
+
+.upload-box {
+  padding: 40px;
+  border: 2px dashed #334155;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: #0f172a;
+  text-align: center;
+  color: #94a3b8;
+}
+
+.upload-box:hover {
+  border-color: #22c55e;
+  background: #111827;
+}
+.cta-button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #16a34a;
+}
+
+.hero-image img {
+  width: 500px;
+  border-radius: 20px;
+}
